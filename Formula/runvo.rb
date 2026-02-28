@@ -3,7 +3,7 @@ class Runvo < Formula
   homepage "https://github.com/runvo/runvo"
   url "https://github.com/runvo/runvo.git", branch: "master"
   version "1.0.0"
-  license "MIT"
+  license "AGPL-3.0-or-later"
 
   depends_on "tmux"
 
