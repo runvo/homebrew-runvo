@@ -29,6 +29,7 @@ class Runvo < Formula
 
       Usage:
         runvo          Interactive menu
+        runvo new      Create new project
         runvo 1        Open project #1
         runvo help     Full help
     EOS
