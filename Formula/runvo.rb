@@ -46,6 +46,6 @@ class Runvo < Formula
   end
 
   test do
-    assert_match "runvo", shell_output("#{bin}/runvo version 2>&1", 1)
+    assert_match "runvo", shell_output("#{bin}/runvo version 2>&1")
   end
 end
