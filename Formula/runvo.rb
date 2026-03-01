@@ -25,13 +25,19 @@ class Runvo < Formula
 
   def caveats
     <<~EOS
-      Run 'runvo setup' to add your first project.
+      Next steps:
 
-      Usage:
-        runvo          Interactive menu
-        runvo new      Create new project
-        runvo 1        Open project #1
-        runvo help     Full help
+      1. Install an AI agent (if you haven't):
+           npm i -g @anthropic-ai/claude-code   (Claude Code)
+           pip install aider-chat                (Aider)
+
+      2. Add your first project:
+           runvo add my-app ~/Projects/my-app "My App"
+
+      3. Start coding:
+           runvo
+
+      More: runvo help | https://runvo.github.io
     EOS
   end
 
