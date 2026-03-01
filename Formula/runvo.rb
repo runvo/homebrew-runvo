@@ -16,6 +16,10 @@ class Runvo < Formula
       #!/bin/bash
       exec bash "#{libexec}/runvo.sh" "$@"
     EOS
+
+    # Tab completions
+    bash_completion.install "completions/runvo.bash" => "runvo"
+    zsh_completion.install "completions/runvo.zsh" => "_runvo"
   end
 
   def post_install
