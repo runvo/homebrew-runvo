@@ -1,8 +1,8 @@
 class Runvo < Formula
   desc "Mobile command center for AI coding agents"
   homepage "https://github.com/runvo/runvo"
-  url "https://github.com/runvo/runvo/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "5ed3fe9d10debaf14f2dbe46ece1786b4f1bc2977fd8551c484db1f4f14ca24e"
+  url "https://github.com/runvo/runvo/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "f9f23e75081c218826c6c1ba9d36100e93daf3c06f418838b9461db15cd91aed"
   license "AGPL-3.0-or-later"
 
   depends_on "tmux"
