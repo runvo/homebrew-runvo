@@ -37,6 +37,10 @@ class Runvo < Formula
       3. Start coding:
            runvo
 
+      Phone access (optional):
+           brew install --cask tailscale
+           Guide: https://runvo.github.io
+
       More: runvo help | https://runvo.github.io
     EOS
   end
